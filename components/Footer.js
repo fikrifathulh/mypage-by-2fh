@@ -1,8 +1,9 @@
-const Footer = document.createElement('footer');
+export const Footer = () => {
+  const footer = document.createElement('footer');
+  footer.innerHTML =
+    `
+      <h3>Follow Me</h3>
+    `
+  return footer;
+};
 
-document.getElementsByTagName('footer').innerHTML =
-  `
-    <h3>Follow Me</h3>
-  `
-
-export { Footer };

@@ -1,8 +1,8 @@
-const Header = document.createElement('header');
-
-document.getElementsByTagName('header').innerHTML =
+export const Header = () => {
+  const header = document.createElement('header');
+  header.innerHTML =
   `
-  <nav>
+    <nav>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#info">Info</a></li>
@@ -10,5 +10,5 @@ document.getElementsByTagName('header').innerHTML =
       </ul>
     </nav>
   `
-
-export { Header };
+  return header;
+};
