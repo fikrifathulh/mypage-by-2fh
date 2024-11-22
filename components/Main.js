@@ -17,7 +17,7 @@ export const Main = () => {
           <h1>Info</h1>
           <p>
           The tools I use to build this page is
-          Termux, Vite, Javascript, and CSS.
+          Neovim, VSCode, Vite, Javascript, and CSS.
           </p>
         </header>
       </section>
