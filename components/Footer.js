@@ -9,7 +9,7 @@ export const Footer = () => {
   github.textContent = "2FH GitHub";
 
   const foot_home = document.createElement('a');
-  foot_home.href = "#home";
+  foot_home.href = "#";
   foot_home.textContent = "Home";
 
   const foot_info = document.createElement('a');
